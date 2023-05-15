@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.capstone.click2drink">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".Update_password"></activity>
+        <activity android:name=".forgot_password" />
+        <activity android:name=".specific_prod_viewer" />
+        <activity android:name=".staff.staff_profile" />
+        <activity android:name=".staff.view_delivered_orders" />
+        <activity android:name=".staff.staff_delivered_orders" />
+        <activity android:name=".staff.view_pending_orders" />
+        <activity android:name=".staff.staff_pending_orders" />
+        <activity android:name=".menu_my_purchases" />
+        <activity android:name=".Track_View" />
+        <activity android:name=".Track_Order" />
+        <activity android:name=".Truck" />
+        <activity android:name=".buy_now" />
+        <activity android:name=".Add_Address" />
+        <activity android:name=".Update_address" />
+        <activity android:name=".menu_address" />
+        <activity android:name=".menu_profile" />
+        <activity android:name=".staff.staff_main_ui" />
+        <activity android:name=".maintenance_mode" />
+        <activity android:name=".OTP_input_code" />
+        <activity android:name=".OTP_input_number" />
+        <activity android:name=".Main_Category" />
+        <activity android:name=".view_promo" />
+        <activity android:name=".view_partner" />
+        <activity android:name=".MainUi" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

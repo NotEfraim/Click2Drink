@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/profile"
+        android:title="@string/profile"
+        android:icon="@drawable/profile"
+
+        />
+    <item android:id="@+id/address"
+        android:title="@string/delivery_address"
+        android:icon="@drawable/address"
+        />
+    <item android:id="@+id/purchases"
+        android:title="@string/my_purchases"
+        android:icon="@drawable/my_purchases"
+        />
+    <item android:id="@+id/scheduled_order"
+        android:title="@string/scheduled_order"
+        android:icon="@drawable/calendar"
+        />
+    <item android:id="@+id/track_order"
+        android:title="Track Order"
+        android:icon="@drawable/truck"
+        />
+</group>
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="@string/authentification">
+        <menu>
+            <item android:id="@+id/logout"
+                android:title="@string/logout"
+                android:icon="@drawable/logout">
+
+            </item>
+        </menu>
+
+
+
+        </item>
+
+
+    </group>
+</menu>

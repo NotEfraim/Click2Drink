@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/dark_blue"
+    android:gravity="bottom">
+   <ImageView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@drawable/click_logo"
+       >
+   </ImageView>
+    <TextView
+        android:id="@+id/user_name"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/pinkchicken"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="user@click2drinkph.store"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        />
+
+
+
+</LinearLayout>

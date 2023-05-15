@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:xlmns="http://schemas.android.com/apk/res/android"  xlmns:shape="rectangle">
+    <solid xlmns:color="@color/white" />
+
+    <corners
+        xlmns:topLeftRadius="100dp"
+        xlmns:topRightRadius="100dp"
+        xlmns:bottomRightRadius="0dp"
+        xlmns:bottomLeftRadius="0dp"
+        />
+
+
+</shape>

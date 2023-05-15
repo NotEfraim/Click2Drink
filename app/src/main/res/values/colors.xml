@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#025F8E</color>
+    <color name="colorPrimaryDark">#2AA8E2</color>
+    <color name="colorAccent">#025F8E</color>
+
+    <color name="white">#EEF7FA</color>
+    <color name="black">#000000</color>
+    <color name="dark_blue">#025F8E</color>
+    <color name="semi_dark">#1677BC</color>
+    <color name="cyan">#2AA8E2</color>
+    <color name="water">#c9e5f4</color>
+
+
+</resources>

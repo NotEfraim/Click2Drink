@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "539079376930",
+    "project_id": "click2drinkphstore",
+    "storage_bucket": "click2drinkphstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539079376930:android:76079fd2dfed1b80150a7b",
+        "android_client_info": {
+          "package_name": "com.capstone.click2drink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539079376930-16uj50b351n471svl8jjrj253sj38pjj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstone.click2drink",
+            "certificate_hash": "a7e20d7071dbba37b8e10c95735ab37375eddb99"
+          }
+        },
+        {
+          "client_id": "539079376930-2sjsepg9nkngjl46vmk4d9jnq3hegm3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbU-M8HKAGPKtO4dqH0vVAL4ju9VeLO6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539079376930-2sjsepg9nkngjl46vmk4d9jnq3hegm3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
